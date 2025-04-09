@@ -1,0 +1,39 @@
+using python read in the csv in dowloads called CANDIDATE_DATASET 
+
+using python create a pandas data frame that reads from the csv in the downloads folder called CANDIDATE_DATASET
+
+filter the dataframe to row 7
+
+remove displaying the basic information about the dataframe
+
+use the csv called candidate_dataset(1) on the desktop instead
+
+split the values within the filtered dataframe, each value is delmited by ;
+
+create a new dataframe with the split values instead of printing them
+
+for each split add as a new row
+
+generate a new row that is the first row multiplied by 4
+
+convert the first row to an integer before the multiplication
+
+transpose the dataframe. Rename the first, eight, and last columns to Quarterly Revenue, Quarter and Implied ARR
+
+when converting the first row to integer, add error handling to coalesce to 0
+
+filter the data frame where implied ARR is greater than 0 and drop the columns that aren't quarterly revenue, quarter, or implied arr
+
+rename the dataframes to clarify during each step of the process
+
+add a space in quarter between year and Q
+
+resst the index
+
+simplify the code where possible 
+
+create a line plot of the data with implied ARR as the y axis as a currency and quarter as the x axis. the y axis starts at 0 
+
+remove the vertical lines in the chart
+
+update the y axis to be in thousands
